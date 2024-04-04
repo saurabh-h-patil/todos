@@ -1,13 +1,13 @@
-import AddToDo from "../component/addToDo"
-import ListToDo from "../component/listToDo"
+import AddToDo from "../component/addToDo";
+import ListToDo from "../component/listToDo";
 
 const ToDo = () => {
-    return(
-        <>
-        <AddToDo/>
-        <ListToDo/>
-        </>
-    )
-}
+  return (
+    <>
+      <AddToDo />
+      <ListToDo />
+    </>
+  );
+};
 
-export default ToDo
+export default ToDo;
